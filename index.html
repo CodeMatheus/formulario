@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="deep-box"></div>
+    <div class="box">
+        <form action="#">
+
+            <div class="cadastro">
+                <h1>Crie sua conta</h1>
+                <section class="label-in">
+                    <input type="text" name="nome" id="nome" required autofocus autocomplete="disabled">
+                    <label for="nome" class="label1">Nome</label>
+                    <input type="text" name="sobrenome" id="sobrenome" required autocomplete="disabled">
+                    <label for="sobrenome" class="label2">Sobrenome</label>
+                </section>
+                <br>
+                <section class="label-in">
+                    <input type="email" name="email" id="email" required>
+                    <label for="email" class="label1">E-mail</label>
+                </section>
+                <br>
+                <section class="label-in">
+                    <input type="password" name="senha" id="senha" required>
+                    <label for="senha" class="label1">Senha</label>
+                    <input type="password" name="confirmar-senha" id="confirmar-senha" required>
+                    <label for="confirmar-senha" class="label2">Confirmar Senha</label>
+                </section>
+                <br>
+                <section class="label-out">
+                    <input type="checkbox" name="termos" id="termos" required>
+                    <label for="termos">Aceitar termos de uso</label>
+                    <input type="button" value="enviar" name="submit" id="submit">
+                </section>
+                <div class="termos"><a href="#">Ler termos de uso</a></div>
+            </div>
+
+            <div class="img">
+                <img src="imagens/kisspng-login-computer-icons-download-avatar-icon-5b2cfbf92868d6.4213763815296747451655.png" alt="imagem do usuário">
+            </div>
+
+        </form>
+    </div>
+    
+</body>
+</html>
