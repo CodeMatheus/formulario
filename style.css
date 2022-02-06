@@ -88,18 +88,24 @@ input {
     font-size: 20px;
 }
 
-label.label1 {
-    position: absolute;
-    padding: 18px;
-    opacity: 60%;
+div.label {
+    position: relative;
+    margin: 5px;
 }
 
-label.label2 {
+section.label-in label {
     position: absolute;
-    padding: 2px;
-    left: 50%;
-    padding: 18px;
-    opacity: 60%;
+    top: 23px;
+    left: 15px;
+    color: rgba(0, 0, 0, 0.486);
+    transition: all 0.2s;
+}
+
+input.transform:focus ~ label,
+input.transform:valid ~ label {
+    color: rgb(59, 194, 247);
+    top: 7px;
+    font-size: 11px;
 }
 
 section.label-out {
