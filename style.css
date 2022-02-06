@@ -108,6 +108,10 @@ input.transform:valid ~ label {
     font-size: 11px;
 }
 
+.single {
+    width: 100%;
+}
+
 section.label-out {
     align-items: center;
     padding-bottom: 10px;
@@ -116,6 +120,7 @@ section.label-out {
 section.label-out label {
     width: 45%;
 }
+
 #termos {
     height: 18px;
     width: 5%;    
@@ -149,4 +154,50 @@ a {
 
 a:hover {
     text-decoration: underline;
+}
+
+@media only screen and (max-width: 900px) {
+    div.img {
+        display: none;
+    }
+    div.cadastro {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    form {
+        padding: 20px 10px;
+    }
+    section {
+        display: block;
+    }
+    input {
+        height: 40px;
+        margin: 2px 0;
+    }
+    #email {
+        width: 96%;
+    }
+    section.label-in label {
+        top: 18px;
+    }
+    label {
+        margin: 0;
+    }
+    h1 {
+        padding: 8px;
+        margin-bottom: 0;
+    }
+    section.label-out {
+        margin: auto;
+        text-align: center;
+    }
+    #termos {
+        width: 30px;
+        margin: 0;
+    }
+    div.termos {
+        margin: 0;
+    }
 }
