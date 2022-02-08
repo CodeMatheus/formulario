@@ -201,3 +201,19 @@ a:hover {
         margin: 0;
     }
 }
+
+@media only screen and (max-width: 400px) {
+    form {
+        height: 90vh;
+    }
+    
+    div.cadastro {
+        height: 100%;
+    }
+    .deep-box {
+        height: 90vh;
+    }
+    #accept {
+        font-size: 12px;
+    }
+}
